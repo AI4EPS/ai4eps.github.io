@@ -1,0 +1,22 @@
+site_name: "PyEarth"
+site_description: 'PyEarth'
+site_author: 'Weiqiang Zhu'
+repo_name: 'PyEarth'
+nav:
+    - Overview: README.md
+    - Obspy:
+      - Install packages: obspy/install.md
+      - Download seismic data: obspy/seismic_waveform.ipynb
+      - Realtime data streaming: obspy/animation_seedlink.ipynb
+      - Signal processing: obspy/signal_processing.ipynb
+    - Earthquake:
+      - Earthquake detection: earthquake/detection.ipynb
+      - Earthquake location: earthquake/location.ipynb
+      - Earthquake statistics: earthquake/statistics.ipynb
+    - Visualization: 
+      - Projection: visualization/projection.ipynb
+theme:
+  name: 'material'
+plugins:
+  - mkdocs-jupyter:
+      ignore_h1_titles: True
